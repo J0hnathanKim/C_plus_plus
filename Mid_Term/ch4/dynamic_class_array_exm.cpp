@@ -42,4 +42,5 @@ int main() {
 	}
 
 	cout << "\n면적이 100에서 200 사이인 원의 개수는 " << count;
+	delete []p;
 }
