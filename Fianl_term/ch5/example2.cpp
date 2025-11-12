@@ -1,3 +1,4 @@
+//값에 의한 호출 시 매개 변수의 생성자 실행되지 않음.
 #include<iostream>
 using namespace std;
 
