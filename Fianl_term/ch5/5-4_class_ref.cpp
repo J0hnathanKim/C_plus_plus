@@ -1,0 +1,16 @@
+#include <iostream>
+ using namespace std;
+ class Circle {
+ intradius;
+ public:
+ Circle() { radius = 1; }
+ Circle(int radius) { this->radius = radius; }
+ void setRadius(intradius) { this->radius = radius; }
+ double getArea() { return 3.14*radius*radius; }
+ };
+ intmain() {
+ Circle circle;
+ Circle &refc= circle; 
+ refc.setRadius(10);
+ cout<< refc.getArea() << " " << circle.getArea();
+ }
