@@ -1,3 +1,4 @@
+//객체에 대한 참조
 #include <iostream>
  using namespace std;
  class Circle {
