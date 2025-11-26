@@ -47,4 +47,12 @@ int main() {
 	return 0;                         // (6), (7) daughter, father 객체 소멸
 }
 
+/* 해결방법: 깊은 복사 생성자를 정의한다.
+Person(const Person& p) {
+    id = p.id;
+    int len = strlen(p.name);
+    name = new char[len + 1];
+    strcpy(name, p.name);
+}
+*/
 
