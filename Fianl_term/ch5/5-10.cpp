@@ -1,4 +1,4 @@
-//깊은 복사 vs 얕은 복사 오류 확인용 예제코드
+//얕은 복사 생성자를 사용하여 프로그램이 비정상 종료되는 경우
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
