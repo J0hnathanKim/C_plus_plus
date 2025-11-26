@@ -44,7 +44,7 @@ int main() {
 	father.show();                    // (5) father 객체 출력
 	daughter.show();                  // (5) daughter 객체 출력
 
-	return 0;                         // (6), (7) daughter, father 객체 소멸
+	return 0;                         // (6), (7) daughter, father 객체 소멸 -> daughter 과 father은 같은 메모리 공간을 공유한다. 즉 daughter 소멸자가 실행되고 그 다음 father 소멸자가 실행되면 같은 공간을 두 번 반납하게된다.
 }
 
 /* 해결방법: 깊은 복사 생성자를 정의한다.
