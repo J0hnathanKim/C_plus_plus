@@ -48,10 +48,10 @@ Power Power::operator+(int a) {
 
 int main() {
 	Power a(1, 1);
-	Power b(3, 4);
+	Power b(2, 2);
 	Power c;
 	a.show();
 	b.show();
-	c = a + 4;
+	c = a + b;
 	c.show();
 }
